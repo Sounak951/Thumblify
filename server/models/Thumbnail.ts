@@ -28,7 +28,7 @@ const ThumbnailSchema = new mongoose.Schema<IThumbnail>(
     image_url: {type: String, default:  ''},
     prompt_used: {type: String},
     user_prompt: {type: String},
-    isGenerating: {type: Boolean, deafult: true},
+    isGenerating: {type: Boolean, default: true},
     }
 )
 
